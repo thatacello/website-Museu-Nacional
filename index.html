@@ -41,7 +41,39 @@
         </header>
         <!-- fim header -->
 
-        
+        <!-- inicio conteudo principal -->
+        <div id="principal">
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="/images/museu.png">
+                </section>
+            </div>
+            <!-- inicio conteudo lateral -->
+            <aside>
+                <section id="depoimento">
+                    <img src="/images/depoimento.png">
+                </section>
+
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+
+                        </fieldset>
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+                </section>
+            </aside>
+            <!-- fim conteudo lateral -->
+        </div>
+        <!-- fim conteudo principal -->
 
     </div>
     <!-- fim container -->
